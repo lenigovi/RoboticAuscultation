@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<package>
+  <name>tm_driver</name>
+  <version>0.0.0</version>
+  <description>The tm_driver package</description>
+  <maintainer email="yhtsai@todo.todo">yhtsai</maintainer>
+  <maintainer email="josuet.leoro@itri.org.tw">Josuet Leoro</maintainer>
+
+  <!--
+    A new license (3-Clause BSD License) is used in this version.
+    The package source code of tm_driver.cpp, tm_driver.h and tm_ros_wrappet.cpp
+    has been changed to provide joint speed command and LED color interface
+  -->
+  <license>3-Clause BSD License</license>
+
+  <author email="josuet.leoro@itri.org.tw">Josuet Leoro</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>actionlib</build_depend>
+  <build_depend>control_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>trajectory_msgs</build_depend>
+  <build_depend>tm_msgs</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>hardware_interface</build_depend>
+  <build_depend>controller_manager</build_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>actionlib</run_depend>
+  <run_depend>control_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>trajectory_msgs</run_depend>
+  <run_depend>tm_msgs</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>ros_controllers</run_depend>
+  <run_depend>hardware_interface</run_depend>
+  <run_depend>controller_manager</run_depend>
+
+  <export>
+  
+  </export>
+</package>
